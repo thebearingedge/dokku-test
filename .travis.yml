@@ -13,8 +13,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script:
-    - git remote add deploy dokku@45.55.26.42:dokku-test
-    - git push deploy master
+  script: scripts/deploy.sh
   on:
     branch: master
