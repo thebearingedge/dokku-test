@@ -1,0 +1,27 @@
+{
+  "name": "dokku-test",
+  "version": "1.0.0",
+  "description": "A simple test app for Travis CI and Dokku setup.",
+  "main": "index.js",
+  "engines": {
+    "node": "7.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebearingedge/dokku-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebearingedge/dokku-test/issues"
+  },
+  "homepage": "https://github.com/thebearingedge/dokku-test#readme",
+  "dependencies": {
+    "express": "4.15.2"
+  }
+}
