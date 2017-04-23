@@ -12,6 +12,7 @@ before_deploy:
   - ssh-add /tmp/deploy_rsa
 deploy:
   provider: script
+  skip_cleanup: true
   script:
     - git remote add deploy dokku@45.55.26.42:dokku-test
     - git push deploy master
