@@ -6,4 +6,4 @@ addons:
 script: npm install
 before_install:
 - openssl aes-256-cbc -K $encrypted_e4ee02218788_key -iv $encrypted_e4ee02218788_iv
-  -in travis_dokku_test.pub.enc -out ~\/.ssh/travis_dokku_test.pub -d
+  -in travis_dokku_test.pub.enc -out travis_dokku_test.pub -d
